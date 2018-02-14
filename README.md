@@ -59,4 +59,5 @@ You can find this code at https://github.com/yangji9181/PACE2017
 
 To run APOIR, first clone the code to your python IDE (eg:Pycharm), then run the APOIR.py.
 
+You can use your own dataset.
 
