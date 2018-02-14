@@ -1,6 +1,6 @@
-# APOIR
+# Adversarial Point-of-Interest Recommendation (APOIR)
 
-This is a python implementation of the model which is called APOIR -- a POI recommendation model using adversarial training.
+This is the python implementation -- a POI recommendation model using adversarial training.
 
 
 --------------
@@ -19,15 +19,13 @@ This is a python implementation of the model which is called APOIR -- a POI reco
 
 ## Datasets
 
-my datasets
-
 | Datasets        |    Users    | POIs  |Check-ins |
 | ------------- |:-------------:| :-----:|:--------:|
 | Gowalla     |18,737|32,510|1,278,274|
 | Foursquare     |24,941|28,593|1,196,248|
 | Yelp  |30,887|18,995|860,888|
 
-For Gowalla dataset, we ﬁlter out those users with fewer than 15 check-in POIs and those POIs with fewer than 10 visitors. For Foursquare and Yelp, we discard those users with fewer than 10 check-in POIs and those POIs with fewer than 10 visitors. We partition each dataset into training set and test set. For each user, we use the earlier 75% check-ins as the training data and the most recent 25% check-ins as the test data. All datasets are very sparse (the frequency of most POIs being visited is extremely low).
+For the Gowalla dataset, we ﬁlter out those users with fewer than 15 check-in POIs and those POIs with fewer than 10 visitors. For Foursquare and Yelp, we discard those users with fewer than 10 check-in POIs and those POIs with fewer than 10 visitors. We partition each dataset into training set and test set. For each user, we use the earlier 75% check-ins as the training data and the most recent 25% check-ins as the test data. All datasets are very sparse (the frequency of most POIs being visited is extremely low).
 
 
 
@@ -57,19 +55,17 @@ You can find this code at https://github.com/yangji9181/PACE2017
 
 ## Usage
 
-To run APOIR, first clone the code to your python IDE (eg:Pycharm), then run the APOIR.py.
+To run APOIR, please first clone the code to your python IDE (eg:Pycharm), then run the command: python APOIR.py.
 
-In the source code:
-
-You can change your favorite Embedding_size in line 9
+To customize the code, you can change the Embedding_size in line 9
 
 You need to set your data set folder in line 14
 
-Then change the user number and poi number to fit the given data set in line 10 and line 11
+Then change the user number and POI number to fit the given data set in line 10 and line 11
 
-You can change the learning_rate_value in line 17
+You can also set the learning_rate_value to be a different value in line 17
 
 Finally,
 
-You can also use your own data sets in the source code
+You can use your own data sets in the source code
 
