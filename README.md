@@ -57,6 +57,6 @@ You can find this code at https://github.com/yangji9181/PACE2017
 
 ## Usage
 
-To run APOIR, first clone the code to your python IDE (eg:Pycharm), then run the main.py.
+To run APOIR, first clone the code to your python IDE (eg:Pycharm), then run the APOIR.py.
 
 
