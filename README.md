@@ -60,11 +60,16 @@ You can find this code at https://github.com/yangji9181/PACE2017
 To run APOIR, first clone the code to your python IDE (eg:Pycharm), then run the APOIR.py.
 
 In the source code:
+
 You can change your favorite Embedding_size in line 9
+
 You need to set your data set folder in line 14
+
 Then change the user number and poi number to fit the given data set in line 10 and line 11
+
 You can change the learning_rate_value in line 17
 
 Finally,
+
 You can also use your own data sets in the source code
 
